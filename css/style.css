@@ -118,11 +118,11 @@ hr{
     background-color: #add8e6;
 }
 
-.debug header > .container{
+.debug header > .top-part{
     background-color: #daa520;
 }
 
-.debug .header{
+.debug .header-line{
     border: 2px dashed black;
 }
 
