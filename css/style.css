@@ -4,3 +4,46 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* REGOLE GENERALI */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+.container-flex{
+    display: flex;
+}
+
+.header{
+    flex-grow: 1;
+    padding: 10px;
+}
+
+ul{
+    list-style: none;
+    justify-content: center;
+}
+
+li{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.login{
+    text-align: end;
+}
+
+/* DEBUG */
+.debug .top-part{
+    background-color: #add8e6;
+}
+
+.debug header > .container{
+    background-color: #daa520;
+}
+
+.debug .header{
+    border: 2px dashed black;
+}
