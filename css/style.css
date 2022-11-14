@@ -7,7 +7,7 @@
 
 /* REGOLE GENERALI */
 .container{
-    max-width: 1200px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -51,7 +51,30 @@ li{
 }
 
 #title{
-    width: 900px;
+    width: 700px;
+}
+
+/* SEZIONE CENTRALE */
+/* SEZIONI ROW */
+.white-background{
+    padding: 30px 0;
+}
+.gray-background{
+    background-color: #d3d3d3;
+    padding: 30px 0;
+}
+
+.blue-square{
+    width: 60%;
+}
+
+.pink-square{
+    width: 40%;
+}
+
+/* SEZIONE COLUMN */
+#green-square{
+    width: 100%;
 }
 
 /* DEBUG */
@@ -75,4 +98,22 @@ li{
     background-color: #ee82ee;
     border: 2px dashed black;
     height: 300px;
+}
+
+.debug .blue-square{
+    background-color: #1e90ff;
+    border: 2px dashed black;
+    height: 400px;
+}
+
+.debug .pink-square{
+    background-color: #ffc0cb;
+    border: 2px dashed black;
+    height: 400px;
+}
+
+.debug #green-square{
+    background-color: #228b22;
+    border: 2px dashed black;
+    height: 800px;
 }
