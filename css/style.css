@@ -9,6 +9,7 @@
 .container{
     max-width: 900px;
     margin: 0 auto;
+    min-height: 60px;
 }
 
 /* HEADER */
@@ -104,6 +105,10 @@ hr{
 .final > div{
     padding: 10px;
 }
+
+
+
+
 /* DEBUG */
 .debug header{
     background-color: #add8e6;
