@@ -22,7 +22,11 @@ header{
     display: flex;
 }
 
-.header{
+header > .top-part{
+    min-height: initial;
+}
+
+.header-line{
     flex-grow: 1;
     padding: 10px;
 }
