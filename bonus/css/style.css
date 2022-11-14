@@ -1,0 +1,180 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* REGOLE GENERALI */
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    min-height: 60px;
+}
+
+/* HEADER */
+/* SEZIONE LOGO E LINKS */
+header{
+    padding-top: 15px;
+}
+
+.container-flex{
+    display: flex;
+}
+
+header > .top-part{
+    min-height: initial;
+}
+
+.header-line{
+    flex-grow: 1;
+    padding: 10px;
+}
+
+ul{
+    list-style: none;
+    justify-content: center;
+}
+
+li{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.login{
+    text-align: end;
+}
+
+/* SEZIONE TITOLO */
+.bottom-part{
+    padding: 30px 0;
+    margin-top: 15px;
+}
+
+.bottom-part.container-flex{
+    justify-content: center;
+}
+
+#title{
+    width: 700px;
+}
+
+/* SEZIONE CENTRALE */
+/* SEZIONI ROW */
+.white-background{
+    padding: 30px 0;
+}
+.gray-background{
+    background-color: #d3d3d3;
+    padding: 30px 0;
+}
+
+.blue-square{
+    width: 60%;
+}
+
+.pink-square{
+    width: 40%;
+}
+
+/* SEZIONE COLUMN */
+#green-square{
+    width: 100%;
+}
+
+/* FOOTER */
+/* SEZIONE COLLEGAMENTI */
+footer > nav{
+    padding: 10px 0 30px;
+}
+.rosa-square{
+    width: calc(100% / 3);
+}
+
+.azzurro-square{
+    width: calc(100% /6);
+}
+hr{
+    color: #c1c2c2;
+    height: 2px;
+}
+/* SEZIONE FINALE */
+.container-flex.final{
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.final > div{
+    padding: 10px;
+}
+
+
+
+
+/* DEBUG */
+.debug header{
+    background-color: #add8e6;
+}
+
+.debug header > .top-part{
+    background-color: #daa520;
+}
+
+.debug .header-line{
+    border: 2px dashed black;
+}
+
+.debug .bottom-part{
+    background-color: #00008b;
+}
+
+.debug #title{
+    background-color: #ee82ee;
+    border: 2px dashed black;
+    height: 300px;
+}
+
+.debug .blue-square{
+    background-color: #1e90ff;
+    border: 2px dashed black;
+    height: 400px;
+}
+
+.debug .pink-square{
+    background-color: #ffc0cb;
+    border: 2px dashed black;
+    height: 400px;
+}
+
+.debug #green-square{
+    background-color: #228b22;
+    border: 2px dashed black;
+    height: 600px;
+}
+
+.debug footer{
+    background-color: #23272a;
+}
+
+.debug .rosa-square{
+    background-color: #f08080;
+    border: 2px dashed black;
+    height: 400px;
+}
+
+.debug .azzurro-square{
+    background-color: #20b2aa;
+    border: 2px dashed white;
+    height: 400px;
+}
+
+.debug .final{
+    background-color: #7fffd4;
+}
+
+.debug .final > div{
+    border: 2px dashed black;
+    background-color: #ffc0cb;
+}
