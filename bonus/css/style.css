@@ -77,6 +77,57 @@ li{
     width: 40%;
 }
 
+/* WAVE */
+.wave{
+    height: 40px;
+    width: 100%;
+    position: relative;
+}
+
+.wave.reverse{
+    height: 40px;
+    width: 100%;
+    position: relative;
+    background-color: #d3d3d3;
+}
+
+.wave::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 60%;
+    height: 40px;
+    border-radius: 100% 50%;
+    top: 55%;
+    right: -5%;
+}
+
+.wave::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 50%;
+    height: 35px;
+    border-radius: 100% 50%;
+    top: 45%;
+}
+
+.normal::before{
+    background-color: #d3d3d3;
+}
+
+.normal::after{
+    background-color: white;
+}
+
+.reverse::before{
+    background-color: white;
+}
+
+.reverse::after{
+    background-color: #d3d3d3;
+}
+
 /* SEZIONE COLUMN */
 #green-square{
     width: 100%;
