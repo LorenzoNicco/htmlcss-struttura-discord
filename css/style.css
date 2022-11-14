@@ -77,6 +77,24 @@ li{
     width: 100%;
 }
 
+/* FOOTER */
+/* SEZIONE COLLEGAMENTI */
+footer > nav{
+    padding: 10px 0 30px;
+}
+.rosa-square{
+    width: calc(100% / 3);
+}
+
+.azzurro-square{
+    width: calc(100% /6);
+}
+hr{
+    color: #c1c2c2;
+    height: 2px;
+}
+/* SEZIONE FINALE */
+
 /* DEBUG */
 .debug header{
     background-color: #add8e6;
@@ -116,4 +134,20 @@ li{
     background-color: #228b22;
     border: 2px dashed black;
     height: 800px;
+}
+
+.debug footer{
+    background-color: #23272a;
+}
+
+.debug .rosa-square{
+    background-color: #f08080;
+    border: 2px dashed black;
+    height: 400px;
+}
+
+.debug .azzurro-square{
+    background-color: #20b2aa;
+    border: 2px dashed white;
+    height: 400px;
 }
