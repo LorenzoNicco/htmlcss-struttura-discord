@@ -12,6 +12,11 @@
 }
 
 /* HEADER */
+/* SEZIONE LOGO E LINKS */
+header{
+    padding-top: 15px;
+}
+
 .container-flex{
     display: flex;
 }
@@ -35,8 +40,22 @@ li{
     text-align: end;
 }
 
+/* SEZIONE TITOLO */
+.bottom-part{
+    padding: 30px 0;
+    margin-top: 15px;
+}
+
+.bottom-part.container-flex{
+    justify-content: center;
+}
+
+#title{
+    width: 900px;
+}
+
 /* DEBUG */
-.debug .top-part{
+.debug header{
     background-color: #add8e6;
 }
 
@@ -46,4 +65,14 @@ li{
 
 .debug .header{
     border: 2px dashed black;
+}
+
+.debug .bottom-part{
+    background-color: #00008b;
+}
+
+.debug #title{
+    background-color: #ee82ee;
+    border: 2px dashed black;
+    height: 300px;
 }
